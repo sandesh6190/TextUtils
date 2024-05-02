@@ -23,6 +23,10 @@ function App() {
       msg: message,
       type: type
     })
+
+    setTimeout(()=>{    //built-in function
+      setAlert(null)
+    },3000)
   }
   const [mode, setMode] = useState('light');
   const [alert, setAlert] = useState(null);
@@ -33,7 +37,7 @@ function App() {
     {/* toggleMode is passed only to call from navbar.js */}
     <Alert alert={alert} />
     <div className='container'>
-    <TextForm mode={mode} heading="Enter the text to anlyze"/>
+    <TextForm mode={mode} showAlert={showAlert} heading="Enter the text to anlyze"/>
     {/* <About /> */}
     </div>
 </>
