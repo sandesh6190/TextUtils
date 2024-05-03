@@ -11,11 +11,22 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#092540';
       showAlert("Dark mode has been enabled.", "success");
+      //setting title 
+      document.title = "Text Utils- Dark Mode"; 
+      //blinking title
+      // setInterval(() => {
+      // document.title = "Text Util is amazing";
+      // },2000)
+
+      // setInterval(() =>{
+      //   document.title = "Instal Text Util now";
+      // },1500)
     }
     else{
       setMode('light');
       document.body.style.backgroundColor = 'white';
       showAlert("Light mode has been enabled.", "success");
+      document.title = "Text Utils- Light Mode";
     }
   }
   const showAlert = (message, type) =>{
