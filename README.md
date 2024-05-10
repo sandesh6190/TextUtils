@@ -1,3 +1,6 @@
+# About App
+TextUtil is a word counter and character counting utility which can be used to manipulate the text in the way you want as well as to convert the text from lowercase to uppercase and uppercase to lowercase.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
