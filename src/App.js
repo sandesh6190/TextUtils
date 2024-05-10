@@ -60,7 +60,7 @@ function App() {
             {/* exact path defines the exact path as
                /users ->Component 1
                /users/details ->Component2*/}
-            <Route exact path="/" element={<TextForm mode={mode} showAlert={showAlert} heading="Enter the text to anlyze" />} />
+            <Route exact path="/" element={<TextForm mode={mode} showAlert={showAlert} heading="Try Text Utils - Word Counter, Character Counter, Remove Extra Spaces" />} />
             <Route exact path="/about" element={<About />} />
           </Routes>
         </div>
